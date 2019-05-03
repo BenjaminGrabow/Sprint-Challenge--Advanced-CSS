@@ -166,7 +166,8 @@ nav h1 {
 }
 @media (max-width: 500px) {
   nav h1 {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
+    padding-top: 1rem;
   }
 }
 nav ul {
@@ -180,8 +181,8 @@ nav ul li {
 }
 @media (max-width: 500px) {
   nav ul li {
-    font-size: 1.3rem;
-    padding: 1rem 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 1.2rem;
     font-weight: 700;
   }
 }
