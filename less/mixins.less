@@ -1,1 +1,27 @@
 // Mixins Here
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.center-only-justify() {
+    display: flex;
+    justify-content: center;
+}
+
+// Parametric mixins
+.button(@color: white, @bg-color: #24292e, @height: 45px, @width: 200px, @fs: 2rem, @radius: 10px) {
+    color           : @color;
+    background-color: @bg-color;
+    width           : @width;
+    height          : @height;
+    font-size       : @fs;
+    border-radius   : @radius;
+}
+
+.animation(@bg-color: rgb(196, 24, 53), @percent: 10%, @color: black, @delay: 0.5) {
+    background-color: lighten(@bg-color, @percent);
+    color: @color;
+    transition: @delay ease-in-out;
+}
