@@ -34,13 +34,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+The responsive design is somewhat like the liquid and will automatically adapt to the user's device regardless of the screen size. With the adoption of CSS media queries, this kind of design method can auto-change the display style on the basis of target device. This can well solve the display problems on different screen sizes.
+
+The adaptive design is built on the use of static breakpoint, and the page won't be adaptive anymore once it's loaded. This will load the work layout appropriately with the screen size of device. In this way, you need to take all the mainstream display size into account and then design the corresponding layout. It will load and display the designed screen layout when a user visits a webpage.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first design:
+This is a very focused approach that begins with designing for the main function of the site, then aims for higher resolutions (often called progressive enhancement).
+
+Desktop first design:
+This approach means designing for the highest specifications — the best achievable by design- and then going down to smaller resolutions (often called graceful degradation). 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting font-size: 100% will make 1rem = 16px. But it will make calculations a little difficult. A better way is to set font-size: 62.5% . Because 62.5% of 16px is 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. There are many CSS preprocessors to choose from, however most CSS preprocessors will add some features that don't exist in pure CSS, such as mixin, nesting selector, inheritance selector, and so on. These features make the CSS structure more readable and easier to maintain.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Favorite concept: mixins, parametric mixins and variables. 
+
+Concept that gives you the most trouble: in the beginning I was overwhelmed with the concept of mixins, parametric mixins and variables but after I saw how powerful this concept are, I began to love it .
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
